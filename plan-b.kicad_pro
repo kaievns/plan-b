@@ -466,7 +466,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "little-wing.kicad_pro",
+    "filename": "plan-b.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -656,9 +656,9 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "little-wing.step",
+      "step": "plan-b.step",
       "svg": "",
-      "vrml": "little-wing.wrl"
+      "vrml": "plan-b.wrl"
     },
     "page_layout_descr_file": ""
   },

@@ -36,11 +36,11 @@ flex/flex-backups
 flex/flex-backups/*
 
 # Project specific files
-little-wing-backups
-little-wing-backups/*
+plan-b-backups
+plan-b-backups/*
 production
 pcbway_production
 fabrication-toolkit-options.json
-little-wing.step
+plan-b.step
 _autosave-*
 \#auto_saved_*
