@@ -2457,7 +2457,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TPS22916 load switch:TPS22916BYFPT"
+		(symbol "TPS22919:TPS22919DCKR"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2465,7 +2465,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -17.8193 8.6391 0)
+				(at -12.7 11.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2473,8 +2473,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "TPS22916BYFPT"
-				(at -17.8805 -11.6857 0)
+			(property "Value" "TPS22919DCKR"
+				(at -12.7 -14.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2482,7 +2482,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "TPS22916BYFPT:BGA4C40P2X2_77X77X50"
+			(property "Footprint" "TPS22919DCKR:SOT65P210X110-6N"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2501,13 +2501,12 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "TPS22916 5.5-V, 2-A Ultra-Low Leakage Load Switch 4-DSBGA -40 to 85"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -2521,7 +2520,7 @@
 					(hide yes)
 				)
 			)
-			(property "PACKAGE" "DSBGA-4 Texas Instruments"
+			(property "Description_1" "5.5-V, 1.5-A, 90-mΩ load switch with adj. output discharge"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2531,27 +2530,7 @@
 					(hide yes)
 				)
 			)
-			(property "PRICE" "0.42 USD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "DSBGA-4 Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/TPS22916BYFPT/Texas+Instruments/view-part/?ref=eda"
+			(property "Package" "SOT-SC70-6 Texas Instruments"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2571,7 +2550,7 @@
 					(hide yes)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS22916BYFPT/Texas+Instruments/view-part/?ref=snap"
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS22919DCKR/Texas+Instruments/view-part/?ref=snap"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2581,7 +2560,7 @@
 					(hide yes)
 				)
 			)
-			(property "MP" "TPS22916BYFPT"
+			(property "MP" "TPS22919DCKR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2601,7 +2580,7 @@
 					(hide yes)
 				)
 			)
-			(property "AVAILABILITY" "Unavailable"
+			(property "Check_prices" "https://www.snapeda.com/parts/TPS22919DCKR/Texas+Instruments/view-part/?ref=eda"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2611,20 +2590,10 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "5.5-V, 2-A, 60-mΩ, 10-nA leakage load switch with output discharge"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "TPS22916BYFPT_0_0"
+			(symbol "TPS22919DCKR_0_0"
 				(rectangle
-					(start -17.78 -7.62)
-					(end 17.78 7.62)
+					(start -12.7 -10.16)
+					(end 12.7 10.16)
 					(stroke
 						(width 0.41)
 						(type default)
@@ -2634,16 +2603,16 @@
 					)
 				)
 				(pin input line
-					(at -22.86 5.08 0)
+					(at -17.78 7.62 0)
 					(length 5.08)
-					(name "VIN"
+					(name "IN"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "A2"
+					(number "1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2652,7 +2621,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.86 0 0)
+					(at -17.78 0 0)
 					(length 5.08)
 					(name "ON"
 						(effects
@@ -2661,7 +2630,7 @@
 							)
 						)
 					)
-					(number "B2"
+					(number "3"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2670,7 +2639,25 @@
 					)
 				)
 				(pin output line
-					(at 22.86 5.08 180)
+					(at 17.78 7.62 180)
+					(length 5.08)
+					(name "QOD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 5.08 180)
 					(length 5.08)
 					(name "VOUT"
 						(effects
@@ -2679,7 +2666,7 @@
 							)
 						)
 					)
-					(number "A1"
+					(number "6"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2688,7 +2675,7 @@
 					)
 				)
 				(pin power_in line
-					(at 22.86 -5.08 180)
+					(at 17.78 -7.62 180)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -2697,7 +2684,7 @@
 							)
 						)
 					)
-					(number "B1"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -4022,7 +4009,7 @@
 	)
 	(text "Load switch for battery sense to preveant leakage"
 		(exclude_from_sim no)
-		(at 59.944 155.956 0)
+		(at 74.422 147.828 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4031,7 +4018,7 @@
 		(uuid "c4bbcadb-4e56-4f76-8eba-288123bf2482")
 	)
 	(junction
-		(at 96.52 176.53)
+		(at 97.79 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09ae51b2-51ea-498c-89d5-bba37ad7165c")
@@ -4047,6 +4034,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10ea4db3-ad8f-4a11-9410-1a452e51b768")
+	)
+	(junction
+		(at 85.09 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1550ad9d-5461-4f04-a449-1c12bf780a94")
 	)
 	(junction
 		(at 114.3 100.33)
@@ -4244,7 +4237,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 176.53) (xy 96.52 179.07)
+			(xy 97.79 170.18) (xy 97.79 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4254,7 +4247,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 167.64) (xy 96.52 167.64)
+			(xy 85.09 161.29) (xy 97.79 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4494,7 +4487,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 175.26) (xy 96.52 176.53)
+			(xy 97.79 168.91) (xy 97.79 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4561,6 +4554,16 @@
 			(type default)
 		)
 		(uuid "d840e22a-3e2e-4314-9687-234413320a2b")
+	)
+	(wire
+		(pts
+			(xy 85.09 158.75) (xy 85.09 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc7399af-6c6f-4dd9-9f4c-14399226e49b")
 	)
 	(wire
 		(pts
@@ -4853,7 +4856,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0700a84f-272f-446a-b213-be137e82ba3e")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 134.62 34.29 0)
 			(effects
 				(font
@@ -5035,7 +5038,7 @@
 		(instances
 			(project "plan-b"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -6397,7 +6400,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VOUT_BAR")
-		(at 96.52 176.53 90)
+		(at 97.79 170.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6405,7 +6408,7 @@
 		(dnp no)
 		(uuid "54594fdb-6e8a-4745-8a1e-e4fb136fa4ef")
 		(property "Reference" "#PWR085"
-			(at 96.52 176.53 0)
+			(at 97.79 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6414,7 +6417,7 @@
 			)
 		)
 		(property "Value" "VSENSE"
-			(at 103.886 176.784 90)
+			(at 105.156 170.434 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6422,7 +6425,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 176.53 0)
+			(at 97.79 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6430,7 +6433,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 176.53 0)
+			(at 97.79 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6438,7 +6441,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 176.53 0)
+			(at 97.79 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7306,7 +7309,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VOUT_BAR")
-		(at 38.1 167.64 270)
+		(at 49.53 158.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7314,7 +7317,7 @@
 		(dnp no)
 		(uuid "85c97492-e538-47ef-96ed-3343581efb99")
 		(property "Reference" "#PWR084"
-			(at 38.1 167.64 0)
+			(at 49.53 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7323,7 +7326,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 31.496 167.64 90)
+			(at 42.926 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7331,7 +7334,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 167.64 0)
+			(at 49.53 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7339,7 +7342,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 167.64 0)
+			(at 49.53 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7347,7 +7350,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 167.64 0)
+			(at 49.53 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7497,7 +7500,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 186.69 0)
+		(at 97.79 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7505,7 +7508,7 @@
 		(dnp no)
 		(uuid "9b3360ba-25d6-429a-a6ec-d3a7ea765c4c")
 		(property "Reference" "#PWR081"
-			(at 96.52 193.04 0)
+			(at 97.79 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7514,7 +7517,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 94.488 190.754 0)
+			(at 95.758 184.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7524,7 +7527,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 186.69 0)
+			(at 97.79 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7533,7 +7536,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 186.69 0)
+			(at 97.79 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7542,7 +7545,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 186.69 0)
+			(at 97.79 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7821,7 +7824,7 @@
 	)
 	(symbol
 		(lib_id "AltiumLib:root_3_mirrored_RES_AltiumLib.DbLib")
-		(at 96.52 167.64 0)
+		(at 97.79 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7829,7 +7832,7 @@
 		(dnp no)
 		(uuid "a712904a-9cdb-48c5-abd3-e31dd8b161e2")
 		(property "Reference" "R_DIV1"
-			(at 97.536 170.942 0)
+			(at 98.806 164.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7838,7 +7841,7 @@
 			)
 		)
 		(property "Value" "1.5M"
-			(at 98.806 173.482 0)
+			(at 100.076 167.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7847,7 +7850,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 96.52 167.64 0)
+			(at 97.79 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7856,7 +7859,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 167.64 0)
+			(at 97.79 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7865,7 +7868,7 @@
 			)
 		)
 		(property "Description" "Resistor, ±1%, 0.05W"
-			(at 96.52 167.64 0)
+			(at 97.79 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7874,7 +7877,7 @@
 			)
 		)
 		(property "FOOTPRINT DOC" "0201"
-			(at 95.25 161.29 0)
+			(at 96.52 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7884,7 +7887,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10k"
-			(at 95.25 161.29 0)
+			(at 96.52 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7894,7 +7897,7 @@
 			)
 		)
 		(property "COMPONENT CLASS" "Resistors"
-			(at 95.25 163.83 0)
+			(at 96.52 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7904,7 +7907,7 @@
 			)
 		)
 		(property "AUTHOR" ""
-			(at 95.25 163.83 0)
+			(at 96.52 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7914,7 +7917,7 @@
 			)
 		)
 		(property "PAD COUNT" "2"
-			(at 95.25 163.83 0)
+			(at 96.52 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7924,7 +7927,7 @@
 			)
 		)
 		(property "ASSEMBLY" ""
-			(at 95.25 163.83 0)
+			(at 96.52 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7950,7 +7953,7 @@
 	)
 	(symbol
 		(lib_id "AltiumLib:root_3_mirrored_RES_AltiumLib.DbLib")
-		(at 96.52 179.07 0)
+		(at 97.79 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7958,7 +7961,7 @@
 		(dnp no)
 		(uuid "a81d28a6-edb0-42cb-9990-a710c013f6a4")
 		(property "Reference" "R_DIV2"
-			(at 97.536 182.372 0)
+			(at 98.806 176.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7967,7 +7970,7 @@
 			)
 		)
 		(property "Value" "220k"
-			(at 98.806 184.912 0)
+			(at 100.076 178.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7976,7 +7979,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 96.52 179.07 0)
+			(at 97.79 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7985,7 +7988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 179.07 0)
+			(at 97.79 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7994,7 +7997,7 @@
 			)
 		)
 		(property "Description" "Resistor, ±1%, 0.05W"
-			(at 96.52 179.07 0)
+			(at 97.79 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8003,7 +8006,7 @@
 			)
 		)
 		(property "FOOTPRINT DOC" "0201"
-			(at 95.25 172.72 0)
+			(at 96.52 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8013,7 +8016,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10k"
-			(at 95.25 172.72 0)
+			(at 96.52 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8023,7 +8026,7 @@
 			)
 		)
 		(property "COMPONENT CLASS" "Resistors"
-			(at 95.25 175.26 0)
+			(at 96.52 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8033,7 +8036,7 @@
 			)
 		)
 		(property "AUTHOR" ""
-			(at 95.25 175.26 0)
+			(at 96.52 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8043,7 +8046,7 @@
 			)
 		)
 		(property "PAD COUNT" "2"
-			(at 95.25 175.26 0)
+			(at 96.52 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8053,7 +8056,7 @@
 			)
 		)
 		(property "ASSEMBLY" ""
-			(at 95.25 175.26 0)
+			(at 96.52 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8269,6 +8272,164 @@
 		)
 	)
 	(symbol
+		(lib_id "TPS22919:TPS22919DCKR")
+		(at 67.31 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b04b77b1-9a22-4452-9521-f9be0498d24f")
+		(property "Reference" "U3"
+			(at 67.31 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS22919DCKR"
+			(at 67.31 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TPS22919:SOT65P210X110-6N"
+			(at 67.31 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 67.31 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "5.5-V, 1.5-A, 90-mΩ load switch with adj. output discharge"
+			(at 67.31 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-SC70-6 Texas Instruments"
+			(at 67.31 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 67.31 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS22919DCKR/Texas+Instruments/view-part/?ref=snap"
+			(at 67.31 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TPS22919DCKR"
+			(at 67.31 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 67.31 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TPS22919DCKR/Texas+Instruments/view-part/?ref=eda"
+			(at 67.31 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "299bd660-9ff2-4e63-b95d-8bf1bcd5b517")
+		)
+		(pin "2"
+			(uuid "d1aa57ea-fc51-4039-91e4-e9627663760d")
+		)
+		(pin "1"
+			(uuid "a1a0fa10-9856-4111-af37-2ac208ea03bc")
+		)
+		(pin "5"
+			(uuid "58aa33bc-ff79-4840-b8a7-4a94d1eaea33")
+		)
+		(pin "3"
+			(uuid "f09a954c-5d4e-4f11-b483-e4e5ec7a27b9")
+		)
+		(instances
+			(project ""
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
 		(at 127 44.45 270)
 		(unit 1)
@@ -8462,7 +8623,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 177.8 0)
+		(at 85.09 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8470,7 +8631,7 @@
 		(dnp no)
 		(uuid "bf7cb267-e13c-4b29-a9a5-dd443c3a3277")
 		(property "Reference" "#PWR014"
-			(at 83.82 184.15 0)
+			(at 85.09 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8479,7 +8640,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.788 181.864 0)
+			(at 83.058 178.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8489,7 +8650,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 177.8 0)
+			(at 85.09 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8498,7 +8659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 177.8 0)
+			(at 85.09 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8507,7 +8668,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 177.8 0)
+			(at 85.09 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8984,7 +9145,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VOUT_BAR")
-		(at 38.1 172.72 270)
+		(at 49.53 166.37 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8992,7 +9153,7 @@
 		(dnp no)
 		(uuid "ee35442b-e36c-43d7-be94-fd187fb27c22")
 		(property "Reference" "#PWR013"
-			(at 38.1 172.72 0)
+			(at 49.53 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9001,7 +9162,7 @@
 			)
 		)
 		(property "Value" "VSENSE_ON"
-			(at 28.194 172.72 90)
+			(at 39.624 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9009,7 +9170,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 172.72 0)
+			(at 49.53 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9017,7 +9178,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 172.72 0)
+			(at 49.53 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9025,7 +9186,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 172.72 0)
+			(at 49.53 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9180,201 +9341,6 @@
 			(project "plan-b"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TPS22916 load switch:TPS22916BYFPT")
-		(at 60.96 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff405503-c2a0-4962-8764-f98a3d5461d1")
-		(property "Reference" "U4"
-			(at 60.96 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS22916BYFPT"
-			(at 60.96 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TPS22916 load switch:BGA4C40P2X2_77X77X50"
-			(at 60.96 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 60.96 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "TPS22916 5.5-V, 2-A Ultra-Low Leakage Load Switch 4-DSBGA -40 to 85"
-			(at 60.96 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "DSBGA-4 Texas Instruments"
-			(at 60.96 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "0.42 USD"
-			(at 60.96 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "DSBGA-4 Texas Instruments"
-			(at 60.96 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TPS22916BYFPT/Texas+Instruments/view-part/?ref=eda"
-			(at 60.96 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 60.96 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS22916BYFPT/Texas+Instruments/view-part/?ref=snap"
-			(at 60.96 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TPS22916BYFPT"
-			(at 60.96 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 60.96 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "Unavailable"
-			(at 60.96 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "5.5-V, 2-A, 60-mΩ, 10-nA leakage load switch with output discharge"
-			(at 60.96 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "B1"
-			(uuid "bb6f8698-cf77-4684-8fb7-b5af2c0b61af")
-		)
-		(pin "A1"
-			(uuid "40b10622-3e80-4ee4-988c-8a34bca706c7")
-		)
-		(pin "B2"
-			(uuid "691f91de-bbfe-4dec-8fe9-aefaea86168a")
-		)
-		(pin "A2"
-			(uuid "86d382d9-37ab-4aab-a239-3c1830995b9b")
-		)
-		(instances
-			(project "plan-b"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
-					(reference "U4")
 					(unit 1)
 				)
 			)
