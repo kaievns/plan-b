@@ -214,7 +214,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 63.5) (xy 151.13 63.5)
+			(xy 143.51 66.04) (xy 151.13 66.04)
 		)
 		(stroke
 			(width 0)
@@ -364,6 +364,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 63.5) (xy 151.13 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d001cebd-6f33-46d6-95bb-34c9a3c04a1c")
+	)
+	(wire
+		(pts
 			(xy 134.62 78.74) (xy 134.62 95.25)
 		)
 		(stroke
@@ -401,6 +411,16 @@
 			(type default)
 		)
 		(uuid "f48ae9c7-fdb8-4552-9f0d-e4fb3d76181a")
+	)
+	(wire
+		(pts
+			(xy 143.51 68.58) (xy 151.13 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8076cd3-689a-475b-bd5c-1722b9be1a7d")
 	)
 	(wire
 		(pts
@@ -697,8 +717,38 @@
 			)
 		)
 		(pin "VSYS" input
-			(at 151.13 63.5 180)
+			(at 151.13 66.04 180)
 			(uuid "96d7b0d7-6880-4918-8879-0889dc431b44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1.8v" input
+			(at 151.13 68.58 180)
+			(uuid "b4ac4b5b-90c7-412d-8559-d409c42640b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3.3v" input
+			(at 227.33 66.04 0)
+			(uuid "28dec651-b27e-4312-bcbb-916b5a351862")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSENSE_ON" input
+			(at 151.13 63.5 180)
+			(uuid "26f5b1cb-4baf-499a-acf9-a4fd4733a4f2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -861,7 +911,7 @@
 			)
 		)
 		(pin "VSYS" input
-			(at 143.51 63.5 0)
+			(at 143.51 66.04 0)
 			(uuid "e2f07096-fa6b-44d3-b16c-e4017e6869a6")
 			(effects
 				(font
@@ -878,6 +928,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "1.8v" input
+			(at 143.51 68.58 0)
+			(uuid "5c4a4167-12a3-4a04-9ebb-746d14d6d5f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSENSE_ON" input
+			(at 143.51 63.5 0)
+			(uuid "4acd3224-4786-4938-b9db-25a4d39380cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
