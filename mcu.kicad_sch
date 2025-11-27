@@ -5890,6 +5890,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "bypass"
+		(exclude_from_sim no)
+		(at 68.326 25.908 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "261e0e48-cebf-42fc-8dcc-7f9a9dcbb492")
+	)
 	(junction
 		(at 109.22 142.24)
 		(diameter 0)
@@ -6139,6 +6149,16 @@
 			(type default)
 		)
 		(uuid "2b2bb76d-4e79-427c-bdc9-2c01a2d8a4df")
+	)
+	(wire
+		(pts
+			(xy 68.58 29.21) (xy 69.85 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b38c580-6225-4cd2-8be4-3cfa175c1268")
 	)
 	(wire
 		(pts
@@ -6592,7 +6612,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 114.3) (xy 43.18 114.3)
+			(xy 43.18 114.3) (xy 52.07 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6891,12 +6911,12 @@
 	)
 	(hierarchical_label "1.8v"
 		(shape input)
-		(at 59.69 26.67 270)
+		(at 69.85 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5083e1fe-1c35-46e1-9df9-2fc822b0b3e2")
 	)
@@ -7023,17 +7043,6 @@
 	)
 	(hierarchical_label "3.3v"
 		(shape input)
-		(at 54.61 26.67 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b7c384ae-ae64-4ec8-b411-9b44ea6ff19b")
-	)
-	(hierarchical_label "3.3v"
-		(shape input)
 		(at 43.18 114.3 180)
 		(effects
 			(font
@@ -7042,6 +7051,17 @@
 			(justify right)
 		)
 		(uuid "bfca21e4-d1e3-4212-8c39-8506854decb4")
+	)
+	(hierarchical_label "1.8v "
+		(shape input)
+		(at 68.58 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cb25f09f-6e7b-4e59-9582-a1db9a2d9dfc")
 	)
 	(hierarchical_label "Col 0"
 		(shape input)
@@ -12119,68 +12139,6 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
-		(at 59.69 26.67 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "840c82a3-ea18-4aa6-bb3b-49caeedc7e04")
-		(property "Reference" "#PWR048"
-			(at 59.69 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "1.8v"
-			(at 59.69 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "2a6e66c5-b844-492a-bfaa-020c31e4d51d")
-		)
-		(instances
-			(project "plan-b"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/5bb1d2f7-c8fd-447b-99e1-d61ef924696c"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
 		(at 68.58 172.72 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13908,68 +13866,6 @@
 			(project "plan-b"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/5bb1d2f7-c8fd-447b-99e1-d61ef924696c"
 					(reference "#PWR0176")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
-		(at 54.61 26.67 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "befee591-9156-4a33-a992-91a551b5afa5")
-		(property "Reference" "#PWR0179"
-			(at 54.61 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3v"
-			(at 54.61 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 54.61 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "fb4dc0fe-6c75-4328-9310-8703510f91e3")
-		)
-		(instances
-			(project "plan-b"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/5bb1d2f7-c8fd-447b-99e1-d61ef924696c"
-					(reference "#PWR0179")
 					(unit 1)
 				)
 			)
