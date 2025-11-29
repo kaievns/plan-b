@@ -5053,7 +5053,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09c8a46b-9d33-4b19-b036-615f74f02d1b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0109"
 			(at 205.74 62.23 0)
 			(effects
 				(font
@@ -5100,7 +5100,7 @@
 		(instances
 			(project "plan-b"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
-					(reference "#PWR?")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -6922,7 +6922,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6bebc513-e68b-457c-91a6-71098ac720a3")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0110"
 			(at 205.74 36.83 0)
 			(effects
 				(font
@@ -6969,7 +6969,7 @@
 		(instances
 			(project "plan-b"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
-					(reference "#PWR?")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -7445,7 +7445,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8fea9b31-ad0a-4600-8d91-f687378ddd73")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0112"
 			(at 114.3 59.69 0)
 			(effects
 				(font
@@ -7492,7 +7492,7 @@
 		(instances
 			(project "plan-b"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
-					(reference "#PWR?")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -7574,7 +7574,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e78e17d-09ed-4557-b3bf-d83a4a7dd5c4")
-		(property "Reference" "R_ICHG"
+		(property "Reference" "R_ICHG1"
 			(at 115.316 88.392 0)
 			(effects
 				(font
@@ -7687,7 +7687,7 @@
 		(instances
 			(project "plan-b"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
-					(reference "R_ICHG")
+					(reference "R_ICHG1")
 					(unit 1)
 				)
 			)
@@ -8500,7 +8500,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb390888-b882-499e-baf3-f3b23104fa67")
-		(property "Reference" "J6"
+		(property "Reference" "J99"
 			(at 119.25 99.568 0)
 			(effects
 				(font
@@ -8615,7 +8615,7 @@
 		(instances
 			(project "plan-b"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
-					(reference "J6")
+					(reference "J99")
 					(unit 1)
 				)
 			)
@@ -8893,7 +8893,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd6051e8-cf09-408f-8afe-923c1a2a84cc")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0111"
 			(at 114.3 36.83 0)
 			(effects
 				(font
@@ -8940,7 +8940,7 @@
 		(instances
 			(project "plan-b"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
-					(reference "#PWR?")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)

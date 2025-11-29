@@ -1493,7 +1493,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e44cfc85-7255-40f7-a562-bcc257e2d165")
-		(property "Reference" "C4"
+		(property "Reference" "C44"
 			(at 68.58 104.14 0)
 			(effects
 				(font
@@ -1647,7 +1647,7 @@
 		(instances
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/95df33f4-bbca-475a-b4f9-9e753f1a5f8c"
-					(reference "C4")
+					(reference "C44")
 					(unit 1)
 				)
 			)
