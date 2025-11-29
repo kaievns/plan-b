@@ -6462,6 +6462,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 96.52) (xy 186.69 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84119391-4026-47ae-889b-e648ea3a0033")
+	)
+	(wire
+		(pts
 			(xy 138.43 30.48) (xy 214.63 30.48)
 		)
 		(stroke
@@ -6542,6 +6552,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 100.33) (xy 195.58 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bda125a-04dc-4783-807c-3e622c13a5cb")
+	)
+	(wire
+		(pts
 			(xy 78.74 69.85) (xy 78.74 83.82)
 		)
 		(stroke
@@ -6549,6 +6569,16 @@
 			(type default)
 		)
 		(uuid "a0f8a40f-c28f-476a-a5ec-b4c439e4ff04")
+	)
+	(wire
+		(pts
+			(xy 177.8 96.52) (xy 186.69 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a44b44c8-4958-449b-bd94-608437875c4f")
 	)
 	(wire
 		(pts
@@ -6759,6 +6789,16 @@
 			(type default)
 		)
 		(uuid "f58fcc8f-a78f-4954-aa57-67a862600ac4")
+	)
+	(wire
+		(pts
+			(xy 195.58 100.33) (xy 195.58 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa22441f-4c4f-48fc-99d6-5103e560c14c")
 	)
 	(wire
 		(pts
@@ -9096,6 +9136,155 @@
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/5bb1d2f7-c8fd-447b-99e1-d61ef924696c"
 					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AltiumLib:root_3_CAP_AltiumLib.DbLib")
+		(at 195.58 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "349d8473-504a-4ec8-88a1-e281e2afbfdd")
+		(property "Reference" "C9"
+			(at 197.612 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "820pF"
+			(at 197.612 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "CAPC1005X04L"
+			(at 195.58 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor, X7R, ±10%"
+			(at 195.58 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "C0402-100n"
+			(at 194.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LATESTREVISIONDATE" "2009-11-23"
+			(at 194.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PAD COUNT" "2"
+			(at 194.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PUBLISHED" "2009-05-08"
+			(at 194.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "100nF"
+			(at 194.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT DOC" "0402"
+			(at 198.12 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ASSEMBLY" ""
+			(at 193.548 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "AUTHOR" ""
+			(at 193.548 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c12184a-1620-4d77-92fd-8c2ad4260829")
+		)
+		(pin "2"
+			(uuid "c0f779d0-47a1-4ea8-83e3-a9db12b80e87")
+		)
+		(instances
+			(project "plan-b"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/5bb1d2f7-c8fd-447b-99e1-d61ef924696c"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -13866,6 +14055,73 @@
 			(project "plan-b"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/5bb1d2f7-c8fd-447b-99e1-d61ef924696c"
 					(reference "#PWR0176")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 195.58 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bdb22768-a254-47d1-80e1-4e7062c6da2e")
+		(property "Reference" "#PWR048"
+			(at 195.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.548 115.062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af03d754-0bd3-4df8-a05e-4a9ac188a25b")
+		)
+		(instances
+			(project "plan-b"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/5bb1d2f7-c8fd-447b-99e1-d61ef924696c"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
