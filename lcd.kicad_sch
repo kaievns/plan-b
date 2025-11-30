@@ -519,133 +519,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "npm1100_caax_config1-altium-import:VBUS_BAR"
 			(power)
 			(exclude_from_sim no)
@@ -1093,17 +966,27 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "LCD Screen LS011B7DH03"
+		(exclude_from_sim no)
+		(at 175.006 74.93 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a603bde3-d1d4-4421-9bb0-1c655fd018d4")
+	)
+	(junction
+		(at 153.67 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21e02f89-57ac-4f87-b58e-b34f5baac475")
+	)
 	(junction
 		(at 125.73 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3056e815-ba18-4912-88b6-6c299c086770")
-	)
-	(junction
-		(at 105.41 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31697297-00c2-4133-a254-b3a7026afead")
 	)
 	(junction
 		(at 115.57 76.2)
@@ -1112,10 +995,26 @@
 		(uuid "58783518-dd38-4e7e-b4b6-cea713d04c8e")
 	)
 	(junction
+		(at 157.48 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b7e0233-0e98-4b35-aebd-6385120630bd")
+	)
+	(junction
 		(at 125.73 78.74)
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "9e13953d-4012-4e59-83c4-60b482094f54")
+	)
+	(wire
+		(pts
+			(xy 153.67 71.12) (xy 153.67 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "139f4410-d612-480e-bd59-418e203cceb8")
 	)
 	(wire
 		(pts
@@ -1129,13 +1028,13 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 73.66) (xy 161.29 73.66)
+			(xy 153.67 83.82) (xy 157.48 83.82)
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
-		(uuid "21cff55a-829b-47f7-b5ba-e30095d4ddaf")
+		(uuid "2e29d411-dad4-4d33-a8cd-47798ee0cca8")
 	)
 	(wire
 		(pts
@@ -1149,13 +1048,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 116.84) (xy 147.32 123.19)
+			(xy 157.48 83.82) (xy 161.29 83.82)
 		)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
-		(uuid "3d49a86e-f1bf-4de3-aa49-71a16aede100")
+		(uuid "3ea7ffec-c0f7-48b6-bae1-c1e842e35075")
 	)
 	(wire
 		(pts
@@ -1169,7 +1068,17 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 78.74) (xy 105.41 90.17)
+			(xy 153.67 71.12) (xy 161.29 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ca3ccb1-6740-4281-ae38-9f2eef4ca317")
+	)
+	(wire
+		(pts
+			(xy 105.41 82.55) (xy 105.41 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1196,16 +1105,6 @@
 			(type default)
 		)
 		(uuid "6a221996-35dc-4957-a6b8-1dd4a418b2ce")
-	)
-	(wire
-		(pts
-			(xy 105.41 69.85) (xy 105.41 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dc6ccbc-0fce-413b-9832-92e20a1fdcec")
 	)
 	(wire
 		(pts
@@ -1239,16 +1138,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 71.12) (xy 156.21 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81c5e864-3afa-47a7-bdc7-c14c008e1b23")
-	)
-	(wire
-		(pts
 			(xy 105.41 125.73) (xy 105.41 130.81)
 		)
 		(stroke
@@ -1256,26 +1145,6 @@
 			(type solid)
 		)
 		(uuid "8385e3bb-0c2f-4296-bc1d-9280974d9764")
-	)
-	(wire
-		(pts
-			(xy 138.43 128.27) (xy 138.43 132.08)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "8ac57371-bfc5-4dcf-baf0-48f7ff3c3c83")
-	)
-	(wire
-		(pts
-			(xy 138.43 116.84) (xy 138.43 123.19)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "9d829f8a-2d68-478d-9c12-59ad674e0118")
 	)
 	(wire
 		(pts
@@ -1296,6 +1165,16 @@
 			(type default)
 		)
 		(uuid "b0b5916a-db45-47bc-9792-4c636ad5e0e5")
+	)
+	(wire
+		(pts
+			(xy 105.41 73.66) (xy 161.29 73.66)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "b2b7701a-2519-4a89-8211-5164ca9a4579")
 	)
 	(wire
 		(pts
@@ -1339,16 +1218,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 128.27) (xy 147.32 132.08)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "c5da1533-f62e-4617-bc89-7b1ab417fe17")
-	)
-	(wire
-		(pts
 			(xy 125.73 68.58) (xy 125.73 78.74)
 		)
 		(stroke
@@ -1356,6 +1225,26 @@
 			(type solid)
 		)
 		(uuid "d2275d63-745d-45c1-8488-67fc80ee4f19")
+	)
+	(wire
+		(pts
+			(xy 105.41 77.47) (xy 105.41 73.66)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "d362a391-45a2-4e8b-9e20-418b9055f6d4")
+	)
+	(wire
+		(pts
+			(xy 157.48 81.28) (xy 157.48 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da4b5205-65bc-4738-8875-7bc05de28c74")
 	)
 	(wire
 		(pts
@@ -1389,7 +1278,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 83.82) (xy 161.29 83.82)
+			(xy 125.73 83.82) (xy 153.67 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1428,7 +1317,7 @@
 		)
 		(uuid "1dd352b3-c46c-45d2-bbfa-01fdf0299d2d")
 	)
-	(hierarchical_label "VDD"
+	(hierarchical_label "3.3v"
 		(shape input)
 		(at 53.34 33.02 270)
 		(effects
@@ -2074,196 +1963,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 138.43 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000611a8741")
-		(property "Reference" "#PWR037"
-			(at 138.43 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 138.557 136.4742 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 138.43 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9cace715-865e-4214-bda4-3118ec68062b")
-		)
-		(instances
-			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/b0276edc-405b-4bb7-82c6-e92bf3a0b9f9"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 147.32 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000611a8d53")
-		(property "Reference" "#PWR038"
-			(at 147.32 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 147.447 136.4742 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 147.32 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "39e8b196-4f71-4355-aa8e-1098c3c01c85")
-		)
-		(instances
-			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/b0276edc-405b-4bb7-82c6-e92bf3a0b9f9"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
-		(at 157.48 81.28 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0373d934-bc18-4b8a-bcaf-43240294bac9")
-		(property "Reference" "#PWR072"
-			(at 157.48 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "EXTMODE"
-			(at 149.098 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "37687f05-4974-4d6a-b1fa-9e41aba5c043")
-		)
-		(instances
-			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/b0276edc-405b-4bb7-82c6-e92bf3a0b9f9"
-					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
 		(at 115.57 68.58 180)
 		(unit 1)
@@ -2382,68 +2081,6 @@
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/b0276edc-405b-4bb7-82c6-e92bf3a0b9f9"
 					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
-		(at 156.21 71.12 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3f554dbe-0ab4-4fe2-ae43-103aa50fc9f3")
-		(property "Reference" "#PWR074"
-			(at 156.21 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "EXTCOMIN"
-			(at 147.828 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 156.21 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "1f1f40bd-b5ee-4bba-92ae-528385b67785")
-		)
-		(instances
-			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/b0276edc-405b-4bb7-82c6-e92bf3a0b9f9"
-					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -2636,83 +2273,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 105.41 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "666d5bde-0796-4a54-b5ea-0bf5e97a283a")
-		(property "Reference" "R39"
-			(at 106.9086 66.1416 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 106.9086 68.453 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 105.41 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 105.41 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25804"
-			(at 105.41 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c03a88d-2ab7-43ba-bd0a-88beeabfa64d")
-		)
-		(pin "2"
-			(uuid "3217491b-17e4-4a53-ad36-1502f3d7e5ff")
-		)
-		(instances
-			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/b0276edc-405b-4bb7-82c6-e92bf3a0b9f9"
-					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
 		(at 105.41 107.95 180)
 		(unit 1)
@@ -2775,85 +2335,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 138.43 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "81c128b4-86bc-4617-8c16-06fb9923ee1e")
-		(property "Reference" "R32"
-			(at 139.9286 124.5616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 139.9286 126.873 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 138.43 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 138.43 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25804"
-			(at 138.43 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "05c3ca62-1395-449a-bb79-b75527f28d09")
-		)
-		(pin "2"
-			(uuid "de8ee003-8d59-47c3-8352-efc6b1c61c40")
-		)
-		(instances
-			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/b0276edc-405b-4bb7-82c6-e92bf3a0b9f9"
-					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
-		(at 105.41 76.2 0)
+		(at 105.41 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2861,7 +2344,7 @@
 		(dnp no)
 		(uuid "895eb0ec-c79f-4473-864f-af6cac77e8f0")
 		(property "Reference" "C37"
-			(at 99.822 78.232 0)
+			(at 99.822 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2869,8 +2352,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "560pF/680pF"
-			(at 99.06 81.28 0)
+		(property "Value" "560pF"
+			(at 99.06 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2879,7 +2362,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 105.41 76.2 0)
+			(at 105.41 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2888,7 +2371,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 76.2 0)
+			(at 105.41 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2897,7 +2380,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 76.2 0)
+			(at 105.41 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2905,7 +2388,7 @@
 			)
 		)
 		(property "LCSC" "C84721"
-			(at 105.41 76.2 0)
+			(at 105.41 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3278,192 +2761,6 @@
 		)
 	)
 	(symbol
-		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
-		(at 138.43 116.84 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b6bc9e3c-927a-4a59-9d37-2ef2a171faac")
-		(property "Reference" "#PWR024"
-			(at 138.43 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "EXTMODE"
-			(at 138.43 108.458 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 138.43 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "c42e4a89-20a3-4efa-809d-05b7bcb0485a")
-		)
-		(instances
-			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/b0276edc-405b-4bb7-82c6-e92bf3a0b9f9"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
-		(at 147.32 116.84 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b8049ad0-29bb-4964-bd8d-c262c8a26dad")
-		(property "Reference" "#PWR073"
-			(at 147.32 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "EXTCOMIN"
-			(at 147.32 108.458 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 147.32 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "a6eca7de-993c-4f82-afd7-5f7373748028")
-		)
-		(instances
-			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/b0276edc-405b-4bb7-82c6-e92bf3a0b9f9"
-					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
-		(at 105.41 64.77 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c6f7c9d5-82e6-43f7-8168-4d5212c69191")
-		(property "Reference" "#PWR021"
-			(at 105.41 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 105.41 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 105.41 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "a9ee3fd7-c49b-4b15-aa06-bad2b713bf9a")
-		)
-		(instances
-			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/b0276edc-405b-4bb7-82c6-e92bf3a0b9f9"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 125.73 81.28 0)
 		(unit 1)
@@ -3535,83 +2832,6 @@
 			(project "little-wing"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/b0276edc-405b-4bb7-82c6-e92bf3a0b9f9"
 					(reference "C38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 147.32 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e90b1a33-84ca-4505-be38-a20d504e3f23")
-		(property "Reference" "R33"
-			(at 148.8186 124.5616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 148.8186 126.873 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 147.32 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 147.32 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25804"
-			(at 147.32 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b34a030-29a1-4388-92f6-e2fb93e94f9c")
-		)
-		(pin "2"
-			(uuid "8a10774d-9bae-4c36-b800-fbd97a9cb28b")
-		)
-		(instances
-			(project "little-wing"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/b0276edc-405b-4bb7-82c6-e92bf3a0b9f9"
-					(reference "R33")
 					(unit 1)
 				)
 			)
