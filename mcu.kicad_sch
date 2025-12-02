@@ -7260,7 +7260,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "10µH"
 			(at 109.22 41.91 0)
 			(effects
 				(font
@@ -7269,7 +7269,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "INDC1608X06L"
+		(property "Footprint" "Library:L_0603_1608"
 			(at 115.57 35.56 0)
 			(effects
 				(font
@@ -7935,7 +7935,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-3000P"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-3000P-B"
 			(at 229.87 144.78 0)
 			(effects
 				(font
@@ -8057,7 +8057,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "32.768kHz"
 			(at 64.516 67.056 0)
 			(effects
 				(font
@@ -8066,7 +8066,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "XTAL_3215"
+		(property "Footprint" "EXC-1210:XTAL_ECS32761210TR"
 			(at 62.23 59.69 0)
 			(effects
 				(font
@@ -8172,6 +8172,42 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" "*"
+			(at 62.23 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" "*"
+			(at 62.23 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PIN COUNT" "2"
+			(at 62.23 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PUBLISHER" "Nordic Semiconductor"
+			(at 62.23 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9a84ae6d-085e-45d8-a6a6-73f1da6b18e9")
 		)
@@ -8205,7 +8241,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "100nF"
 			(at 146.812 158.75 0)
 			(effects
 				(font
@@ -8214,7 +8250,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1005X04L"
+		(property "Footprint" "Library:C_0402_1005"
 			(at 144.78 151.13 0)
 			(effects
 				(font
@@ -8541,7 +8577,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "100pF"
 			(at 205.74 74.422 0)
 			(effects
 				(font
@@ -8550,7 +8586,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1005X04L"
+		(property "Footprint" "Library:C_0402_1005"
 			(at 203.2 69.85 0)
 			(effects
 				(font
@@ -8815,7 +8851,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "1.0µF"
 			(at 103.886 59.944 0)
 			(effects
 				(font
@@ -8824,7 +8860,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X06L"
+		(property "Footprint" "Library:C_0603_1608"
 			(at 101.6 53.34 0)
 			(effects
 				(font
@@ -9168,7 +9204,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1005X04L"
+		(property "Footprint" "Library:C_0402_1005"
 			(at 195.58 102.87 0)
 			(effects
 				(font
@@ -9309,7 +9345,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "4.7µF"
 			(at 111.76 149.86 0)
 			(effects
 				(font
@@ -9318,7 +9354,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X06L"
+		(property "Footprint" "Library:C_0603_1608"
 			(at 109.22 142.24 0)
 			(effects
 				(font
@@ -9586,7 +9622,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "47nF"
 			(at 140.97 36.576 0)
 			(effects
 				(font
@@ -9595,7 +9631,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1005X04L"
+		(property "Footprint" "Library:C_0402_1005"
 			(at 138.43 30.48 0)
 			(effects
 				(font
@@ -9858,7 +9894,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "32MHz"
 			(at 192.786 48.006 0)
 			(effects
 				(font
@@ -9867,7 +9903,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "BT-XTAL_2016"
+		(property "Footprint" "NX1612SA-32.000MHZ-CHP:OSCSC105P160X120X35-4N"
 			(at 190.5 48.26 0)
 			(effects
 				(font
@@ -10022,7 +10058,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "Library:LED_0603_1608"
 			(at 248.92 134.62 0)
 			(effects
 				(font
@@ -10218,7 +10254,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1005X04L"
+		(property "Footprint" "Library:C_0402_1005"
 			(at 213.36 93.98 0)
 			(effects
 				(font
@@ -10615,7 +10651,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "100nF"
 			(at 167.64 60.96 0)
 			(effects
 				(font
@@ -10624,7 +10660,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1005X04L"
+		(property "Footprint" "Library:C_0402_1005"
 			(at 165.1 53.34 0)
 			(effects
 				(font
@@ -10826,7 +10862,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "100nF"
 			(at 88.9 60.96 0)
 			(effects
 				(font
@@ -10835,7 +10871,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1005X04L"
+		(property "Footprint" "Library:C_0402_1005"
 			(at 86.36 53.34 0)
 			(effects
 				(font
@@ -10976,7 +11012,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "4.7µF"
 			(at 54.102 129.54 0)
 			(effects
 				(font
@@ -10985,7 +11021,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X06L"
+		(property "Footprint" "Library:C_0603_1608"
 			(at 52.07 121.92 0)
 			(effects
 				(font
@@ -11319,7 +11355,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Library:R_0402_1005"
 			(at 248.92 142.24 0)
 			(effects
 				(font
@@ -11770,7 +11806,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "4.7µF"
 			(at 66.04 129.54 0)
 			(effects
 				(font
@@ -11779,7 +11815,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X06L"
+		(property "Footprint" "Library:C_0603_1608"
 			(at 63.5 121.92 0)
 			(effects
 				(font
@@ -11918,7 +11954,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "nRF52840-QIAA"
 			(at 164.338 137.16 0)
 			(effects
 				(font
@@ -11927,7 +11963,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "AQFN50P700X700X85_HS-74N"
+		(property "Footprint" "Package_DFN_QFN:Nordic_AQFN-73-1EP_7x7mm_P0.5mm"
 			(at 106.68 132.08 0)
 			(effects
 				(font
@@ -12406,7 +12442,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "12pF"
 			(at 200.66 43.942 0)
 			(effects
 				(font
@@ -12415,7 +12451,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1005X04L"
+		(property "Footprint" "Library:C_0402_1005"
 			(at 198.12 39.37 0)
 			(effects
 				(font
@@ -12680,7 +12716,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "1.0µF"
 			(at 130.81 36.83 0)
 			(effects
 				(font
@@ -12689,7 +12725,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X06L"
+		(property "Footprint" "Library:C_0603_1608"
 			(at 128.27 38.1 0)
 			(effects
 				(font
@@ -12954,7 +12990,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "15nH"
 			(at 109.22 34.29 0)
 			(effects
 				(font
@@ -12963,7 +12999,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "INDC1005X04L"
+		(property "Footprint" "Library:L_0402_1005"
 			(at 115.57 27.94 0)
 			(effects
 				(font
@@ -13112,7 +13148,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "INDC1005X04L"
+		(property "Footprint" "Library:L_0402_1005"
 			(at 200.66 86.36 0)
 			(effects
 				(font
@@ -13313,7 +13349,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "100nF"
 			(at 197.612 129.54 0)
 			(effects
 				(font
@@ -13322,7 +13358,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1005X04L"
+		(property "Footprint" "Library:C_0402_1005"
 			(at 195.58 121.92 0)
 			(effects
 				(font
@@ -13605,7 +13641,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1005X04L"
+		(property "Footprint" "Library:C_0402_1005"
 			(at 195.58 93.98 0)
 			(effects
 				(font
@@ -14576,7 +14612,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "12pF"
 			(at 200.66 55.372 0)
 			(effects
 				(font
@@ -14585,7 +14621,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1005X04L"
+		(property "Footprint" "Library:C_0402_1005"
 			(at 198.12 50.8 0)
 			(effects
 				(font
@@ -14726,7 +14762,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "4.7µF"
 			(at 99.06 129.54 0)
 			(effects
 				(font
@@ -14735,7 +14771,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X06L"
+		(property "Footprint" "Library:C_0603_1608"
 			(at 96.52 121.92 0)
 			(effects
 				(font
@@ -15133,7 +15169,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "10µH"
 			(at 90.17 116.84 0)
 			(effects
 				(font
@@ -15142,7 +15178,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "INDC1608X06L"
+		(property "Footprint" "Library:L_0603_1608"
 			(at 82.55 116.84 0)
 			(effects
 				(font
@@ -15531,7 +15567,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "12pF"
 			(at 53.34 74.422 0)
 			(effects
 				(font
@@ -15540,7 +15576,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1005X04L"
+		(property "Footprint" "Library:C_0402_1005"
 			(at 58.42 69.85 0)
 			(effects
 				(font
@@ -15681,7 +15717,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "12pF"
 			(at 53.34 61.722 0)
 			(effects
 				(font
@@ -15690,7 +15726,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1005X04L"
+		(property "Footprint" "Library:C_0402_1005"
 			(at 58.42 57.15 0)
 			(effects
 				(font

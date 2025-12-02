@@ -4877,7 +4877,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "nPM1100-QDAx"
 			(at 134.62 105.41 0)
 			(effects
 				(font
@@ -4886,7 +4886,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "QFN50P400X400X80_HS-25N"
+		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias"
 			(at 134.62 34.29 0)
 			(effects
 				(font
@@ -4969,6 +4969,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LATESTREVISIONDATE" "2017-08-21"
+			(at 134.62 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "nRF52840-QIAA"
+			(at 134.62 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PUBLISHED" "2017-08-21"
+			(at 134.62 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5345,7 +5372,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LED_0603_G"
+		(property "Footprint" "Library:LED_0603_1608"
 			(at 220.98 63.5 0)
 			(effects
 				(font
@@ -5466,7 +5493,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "1.0µF"
 			(at 116.332 71.12 0)
 			(effects
 				(font
@@ -5475,7 +5502,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC0603X03L_C"
+		(property "Footprint" "Library:C_0402_1005"
 			(at 114.3 71.12 0)
 			(effects
 				(font
@@ -5838,7 +5865,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "2.2µF"
 			(at 116.332 45.72 0)
 			(effects
 				(font
@@ -5847,7 +5874,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X06L"
+		(property "Footprint" "Library:C_0603_1608"
 			(at 114.3 45.72 0)
 			(effects
 				(font
@@ -5967,7 +5994,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "10µF"
 			(at 207.772 49.53 0)
 			(effects
 				(font
@@ -5976,7 +6003,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X06L"
+		(property "Footprint" "Library:C_0603_1608"
 			(at 205.74 49.53 0)
 			(effects
 				(font
@@ -6490,7 +6517,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "10µF"
 			(at 197.612 49.53 0)
 			(effects
 				(font
@@ -6499,7 +6526,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X06L"
+		(property "Footprint" "Library:C_0603_1608"
 			(at 195.58 49.53 0)
 			(effects
 				(font
@@ -7206,7 +7233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Library:R_0402_1005"
 			(at 77.47 39.37 0)
 			(effects
 				(font
@@ -7604,7 +7631,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RESC0603X03L_C"
+		(property "Footprint" "Library:R_0402_1005"
 			(at 114.3 92.71 0)
 			(effects
 				(font
@@ -7861,7 +7888,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Library:R_0402_1005"
 			(at 97.79 161.29 0)
 			(effects
 				(font
@@ -7990,7 +8017,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Library:R_0402_1005"
 			(at 97.79 172.72 0)
 			(effects
 				(font
@@ -8172,7 +8199,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "10k"
 			(at 124.206 68.072 0)
 			(effects
 				(font
@@ -8181,7 +8208,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Library:R_0402_1005"
 			(at 123.19 62.23 0)
 			(effects
 				(font
@@ -8268,6 +8295,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 123.19 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4f3033db-6d5a-4226-a97b-ee0d3e5af730")
 		)
@@ -8309,7 +8345,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS22919:SOT65P210X110-6N"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 67.31 166.37 0)
 			(effects
 				(font
@@ -8521,7 +8557,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "Net tie"
 			(at 117.602 99.568 0)
 			(effects
 				(font
@@ -8531,7 +8567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "2 PIN STARPOINT"
+		(property "Footprint" "2 pin starpoint:2 PIN STARPOINT"
 			(at 119.38 100.33 0)
 			(effects
 				(font
@@ -8785,7 +8821,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "10µF"
 			(at 207.772 69.85 0)
 			(effects
 				(font
@@ -8794,7 +8830,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAPC1608X06L"
+		(property "Footprint" "Library:C_0603_1608"
 			(at 205.74 69.85 0)
 			(effects
 				(font
@@ -9044,7 +9080,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${ALTIUM_VALUE}"
+		(property "Value" "2.2µH"
 			(at 196.342 68.072 0)
 			(effects
 				(font
@@ -9053,7 +9089,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "INDC2016X10N"
+		(property "Footprint" "Library:L_0603_1608"
 			(at 195.58 62.23 0)
 			(effects
 				(font
@@ -9307,7 +9343,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Library:R_0402_1005"
 			(at 77.47 41.91 0)
 			(effects
 				(font
