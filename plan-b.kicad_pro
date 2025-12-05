@@ -547,6 +547,26 @@
       {
         "netclass": "Power",
         "pattern": "VBAT"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "SWDIO"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "SWCLK"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "CLK"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "LCD DATA"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "CS"
       }
     ]
   },

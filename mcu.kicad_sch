@@ -10784,7 +10784,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
-		(at 99.06 91.44 270)
+		(at 147.32 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10792,7 +10792,7 @@
 		(dnp no)
 		(uuid "5be39656-f10d-4df9-a260-eb29300f9dfd")
 		(property "Reference" "#PWR024"
-			(at 99.06 91.44 0)
+			(at 147.32 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10801,7 +10801,7 @@
 			)
 		)
 		(property "Value" "Sensor SDIO"
-			(at 89.916 91.44 90)
+			(at 147.32 51.816 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10809,7 +10809,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 91.44 0)
+			(at 147.32 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10817,7 +10817,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 91.44 0)
+			(at 147.32 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10825,7 +10825,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 91.44 0)
+			(at 147.32 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12637,7 +12637,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
-		(at 99.06 86.36 270)
+		(at 142.24 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12645,7 +12645,7 @@
 		(dnp no)
 		(uuid "8e7db673-d645-4a46-9654-411c7cc5c8b5")
 		(property "Reference" "#PWR021"
-			(at 99.06 86.36 0)
+			(at 142.24 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12654,7 +12654,7 @@
 			)
 		)
 		(property "Value" "Sensor CS"
-			(at 90.678 86.36 90)
+			(at 142.24 52.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12662,7 +12662,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 86.36 0)
+			(at 142.24 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12670,7 +12670,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 86.36 0)
+			(at 142.24 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12678,7 +12678,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 86.36 0)
+			(at 142.24 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16227,7 +16227,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
-		(at 99.06 101.6 270)
+		(at 154.94 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16235,7 +16235,7 @@
 		(dnp no)
 		(uuid "f089b45d-ffb2-41cb-abd2-cb133e6aeafc")
 		(property "Reference" "#PWR038"
-			(at 99.06 101.6 0)
+			(at 154.94 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16244,7 +16244,7 @@
 			)
 		)
 		(property "Value" "Sensor IRQ"
-			(at 90.678 101.6 90)
+			(at 154.94 52.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16252,7 +16252,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 101.6 0)
+			(at 154.94 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16260,7 +16260,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 101.6 0)
+			(at 154.94 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16268,7 +16268,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 101.6 0)
+			(at 154.94 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16537,7 +16537,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
-		(at 99.06 96.52 270)
+		(at 157.48 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16545,7 +16545,7 @@
 		(dnp no)
 		(uuid "ff1870ef-7bcd-4790-83be-30fe90a5a545")
 		(property "Reference" "#PWR037"
-			(at 99.06 96.52 0)
+			(at 157.48 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16554,7 +16554,7 @@
 			)
 		)
 		(property "Value" "Sensor CLK"
-			(at 90.678 96.52 90)
+			(at 157.48 52.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16562,7 +16562,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 96.52 0)
+			(at 157.48 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16570,7 +16570,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 96.52 0)
+			(at 157.48 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16578,7 +16578,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 96.52 0)
+			(at 157.48 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
