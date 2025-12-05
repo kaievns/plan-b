@@ -567,6 +567,18 @@
       {
         "netclass": "Data",
         "pattern": "CS"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "VSENSE"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "VSENSE_ON"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "RGB ON"
       }
     ]
   },
