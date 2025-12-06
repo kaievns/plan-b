@@ -623,6 +623,30 @@
       {
         "netclass": "Data",
         "pattern": "Col 5"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "Row 5"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "Row 4"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "Row 3"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "Row 2"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "Row 1"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "Row 0"
       }
     ]
   },

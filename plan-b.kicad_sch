@@ -178,6 +178,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 78.74) (xy 201.93 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a196cbe-08d0-4c5d-a13b-47b7805f4a7a")
+	)
+	(wire
+		(pts
 			(xy 185.42 78.74) (xy 185.42 95.25)
 		)
 		(stroke
@@ -780,6 +790,16 @@
 				(justify left)
 			)
 		)
+		(pin "Row 5" input
+			(at 201.93 78.74 270)
+			(uuid "3eb7d92f-bbcb-4db6-892d-682769caf608")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "plan-b"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed"
@@ -1167,7 +1187,7 @@
 	)
 	(sheet
 		(at 158.75 95.25)
-		(size 43.18 21.59)
+		(size 49.276 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1301,6 +1321,16 @@
 		(pin "Row 3" input
 			(at 196.85 95.25 90)
 			(uuid "4a7812d7-2421-4d9a-a53e-519da3d97990")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Row 5" input
+			(at 201.93 95.25 90)
+			(uuid "7c70a4bf-2545-4c0c-b264-b6c54a8c5e5c")
 			(effects
 				(font
 					(size 1.27 1.27)
