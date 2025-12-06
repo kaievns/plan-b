@@ -7392,6 +7392,68 @@
 		)
 	)
 	(symbol
+		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
+		(at 134.62 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c4d148f-2c1e-428f-b622-e736925821c6")
+		(property "Reference" "#PWR054"
+			(at 134.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LCD CLK"
+			(at 134.62 147.574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "fad44f13-2922-482f-a322-043a4bb020cb")
+		)
+		(instances
+			(project "plan-b"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/5bb1d2f7-c8fd-447b-99e1-d61ef924696c"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 101.6 60.96 0)
 		(unit 1)
@@ -7460,7 +7522,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
-		(at 177.8 99.06 90)
+		(at 137.16 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7468,7 +7530,7 @@
 		(dnp no)
 		(uuid "0c88c2e5-48a2-477b-8ab2-0a24f1e52d4f")
 		(property "Reference" "#PWR049"
-			(at 177.8 99.06 0)
+			(at 137.16 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7477,7 +7539,7 @@
 			)
 		)
 		(property "Value" "RGB DATA"
-			(at 186.182 99.06 90)
+			(at 137.16 52.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7485,7 +7547,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 99.06 0)
+			(at 137.16 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7493,7 +7555,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 99.06 0)
+			(at 137.16 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7501,7 +7563,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 99.06 0)
+			(at 137.16 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10585,7 +10647,7 @@
 			)
 		)
 		(property "Value" "RST"
-			(at 137.16 143.51 0)
+			(at 137.414 145.542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11721,6 +11783,68 @@
 		)
 	)
 	(symbol
+		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
+		(at 124.46 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7303e70d-52a3-4744-af3d-d64b9e3513a2")
+		(property "Reference" "#PWR056"
+			(at 124.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LCD CS"
+			(at 124.46 148.082 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "d3daef6e-da47-4efa-a4f2-d884edd04658")
+		)
+		(instances
+			(project "plan-b"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/5bb1d2f7-c8fd-447b-99e1-d61ef924696c"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "nrf52840_ckaa_var4-altium-import:VDD_nRF_BAR")
 		(at 260.35 52.07 90)
 		(unit 1)
@@ -12481,6 +12605,68 @@
 			(project "plan-b"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/5bb1d2f7-c8fd-447b-99e1-d61ef924696c"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
+		(at 129.54 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80885fde-6b74-4ca0-86f4-33ff24b17cab")
+		(property "Reference" "#PWR055"
+			(at 129.54 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LCD DATA"
+			(at 129.54 148.082 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "aa1c0c10-c99b-4320-b572-35f1f4079dd0")
+		)
+		(instances
+			(project "plan-b"
+				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/5bb1d2f7-c8fd-447b-99e1-d61ef924696c"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -16475,7 +16661,7 @@
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
-		(at 137.16 60.96 180)
+		(at 177.8 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16483,7 +16669,7 @@
 		(dnp no)
 		(uuid "f816da1b-f091-467d-99e3-d1bbe80e5019")
 		(property "Reference" "#PWR053"
-			(at 137.16 60.96 0)
+			(at 177.8 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16492,7 +16678,7 @@
 			)
 		)
 		(property "Value" "RGB ON"
-			(at 137.16 52.578 90)
+			(at 186.182 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16500,7 +16686,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 60.96 0)
+			(at 177.8 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16508,7 +16694,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 60.96 0)
+			(at 177.8 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16516,7 +16702,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 60.96 0)
+			(at 177.8 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
