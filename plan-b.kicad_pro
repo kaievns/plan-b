@@ -599,6 +599,30 @@
       {
         "netclass": "Data",
         "pattern": "PlanB 3"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "Col 1"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "Col 0"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "Col 2"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "Col 4"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "Col 3"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "Col 5"
       }
     ]
   },
