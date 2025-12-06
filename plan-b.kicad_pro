@@ -587,6 +587,18 @@
       {
         "netclass": "Data",
         "pattern": "RST"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "PlanB 1"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "PlanB 2"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "PlanB 3"
       }
     ]
   },
