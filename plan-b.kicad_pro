@@ -647,6 +647,10 @@
       {
         "netclass": "Data",
         "pattern": "Row 0"
+      },
+      {
+        "netclass": "Data",
+        "pattern": "BLED"
       }
     ]
   },
