@@ -9278,26 +9278,27 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "2fc9bdb8-782f-4000-a4fc-5b4c9abf7117")
 		(property "Reference" "C14"
-			(at 103.886 57.404 0)
+			(at 104.14 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "1.0µF"
-			(at 103.886 59.944 0)
+			(at 104.14 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Library:C_0603_1608"
+		(property "Footprint" "Library:C_0402_1005"
 			(at 101.6 53.34 0)
 			(effects
 				(font
@@ -12098,7 +12099,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "470k"
+		(property "Value" "100k"
 			(at 249.936 148.082 0)
 			(effects
 				(font
@@ -13973,7 +13974,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Library:C_0603_1608"
+		(property "Footprint" "Library:C_0402_1005"
 			(at 128.27 38.1 0)
 			(effects
 				(font

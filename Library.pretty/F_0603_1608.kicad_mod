@@ -1,0 +1,181 @@
+(footprint "F_0603_1608"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Ferrite Bead SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), Alternate KiCAD Library")
+	(tags "ferrite bead 0603")
+	(property "Reference" "REF**"
+		(at 0 -1.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "88ebd557-7626-454f-80b9-3f0f9b4ebfb5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "F_0603_1608"
+		(at 0 1.43 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cecf0b8-cbce-45b4-9f91-ff571107b40c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2438f85-bc1f-41a8-9275-2e4ab315afca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "647719aa-c425-4c06-a1d5-d6db1c25261b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0.1 -0.3)
+		(end -0.1 -0.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a42b38a5-eec8-4f12-8498-a15e8d6ae9ca")
+	)
+	(fp_line
+		(start 0.1 0.30001)
+		(end -0.1 0.30001)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8dcb94ba-50c0-4f16-8215-96252fac72bc")
+	)
+	(fp_line
+		(start -1.25 -0.6)
+		(end 1.25 -0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5b6da32a-f65f-4d7f-9801-e1b94812eb03")
+	)
+	(fp_line
+		(start -1.25 0.6)
+		(end -1.25 -0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "50d6e96b-4c46-4707-b324-d7ade078d342")
+	)
+	(fp_line
+		(start 1.25 -0.6)
+		(end 1.25 0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "40358a94-a1c4-4d6b-9b44-94eaa95db242")
+	)
+	(fp_line
+		(start 1.25 0.6)
+		(end -1.25 0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cc8a578b-dd42-4a3f-8a85-aa23bd52aa46")
+	)
+	(fp_line
+		(start -0.85 0.45)
+		(end -0.85 -0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.7")
+		(uuid "bb4c755d-61ac-4073-8c47-d2e3ae525c15")
+	)
+	(fp_line
+		(start 0.85 -0.45)
+		(end -0.85 -0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.7")
+		(uuid "3146d49a-e077-4ca2-9576-f7ffc3e546a3")
+	)
+	(fp_line
+		(start 0.85 0.45)
+		(end -0.85 0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.7")
+		(uuid "237c9e46-70fb-45c1-96a4-46fd997bee3a")
+	)
+	(fp_line
+		(start 0.85 0.45)
+		(end 0.85 -0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.7")
+		(uuid "d5e1866c-a152-4d88-b56b-0fb9a36fb3f2")
+	)
+	(pad "1" smd rect
+		(at -0.675 0 90)
+		(size 0.8 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "921d0cff-b859-4f72-9614-098e42455df8")
+	)
+	(pad "2" smd rect
+		(at 0.675 0 90)
+		(size 0.8 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e3c66f25-b2c7-4fd8-9f55-7eb569914a4a")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0603_1608Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
