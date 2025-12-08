@@ -27298,12 +27298,24 @@
 		)
 	)
 	(gr_text "Columns"
-		(at 153.25 80.4 0)
+		(at 153.35 80.25 0)
 		(layer "B.SilkS")
 		(uuid "09dc4421-2b68-44d8-9a9c-fd5e80f738ef")
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "0.06"
+		(at 155.95 83.1125 0)
+		(layer "B.SilkS")
+		(uuid "0b6fd07e-ec82-43f2-a4e3-d5009f6c0bd4")
+		(effects
+			(font
+				(size 0.5 0.5)
 				(thickness 0.1)
 			)
 			(justify left bottom mirror)
@@ -27321,8 +27333,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Sensor V»"
-		(at 157.225 61.6 90)
+	(gr_text "Sensor»"
+		(at 157.2 63.25 90)
 		(layer "B.SilkS")
 		(uuid "1fa44051-12e4-41c9-9f91-2b6a05fc06d3")
 		(effects
@@ -27334,7 +27346,7 @@
 		)
 	)
 	(gr_text "Rows"
-		(at 151.75 71.4 0)
+		(at 151.65 71.075 0)
 		(layer "B.SilkS")
 		(uuid "29a612bd-f303-4a4f-a0e9-0058de6bd03d")
 		(effects
@@ -27349,6 +27361,30 @@
 		(at 155.625 70.6 0)
 		(layer "B.SilkS")
 		(uuid "50c49e08-bc37-4b0c-ae73-5770bf8f473c")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "0.08"
+		(at 155.95 82.10625 0)
+		(layer "B.SilkS")
+		(uuid "5147f7bf-3960-45f5-990a-640f2d7a26f6")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "0.26"
+		(at 155.95 85.125 0)
+		(layer "B.SilkS")
+		(uuid "6306e4b7-211f-477b-a261-c6921f0c4e60")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -27400,6 +27436,30 @@
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "0.04"
+		(at 155.95 84.11875 0)
+		(layer "B.SilkS")
+		(uuid "d3058b79-13d8-4379-8b88-d289a62fe54d")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "1.09"
+		(at 155.95 81.1 0)
+		(layer "B.SilkS")
+		(uuid "e648d040-b4af-4492-9e80-9c2b84179a73")
+		(effects
+			(font
+				(size 0.5 0.5)
 				(thickness 0.1)
 			)
 			(justify left bottom mirror)
