@@ -9,12 +9,18 @@ Think about it as
 - has baked nice!view inside with a slot for LCD
 - has baked in RGB controller
 - has baked in 6-pin SPI interface for external sensor
-- has baked in wiring for 6x5 keyboard matrix via JST connectors
+- has baked in wiring for 6x6 keyboard matrix via JST connectors
 - has baked in power/reset switches for both sides
+- built in 1.8v power supply for externals
+- high efficiency DC/DC buck converters for all power lines
+- heavily fabrication optimised BOM and PCB (est $130 per 5 units at JLCPCB)
 
 All in a tiny 14x42mm package, which is about 8m longer than nice!view shield
 
-![render](./3d-render.png)
+<p align="center">
+  <img src="./3d-render-front.png" alt="PCB Front" width="48%"/>
+  <img src="./3d-render-back.png" alt="PCB Back" width="48%"/>
+</p>
 
 ## Copyright & License
 
