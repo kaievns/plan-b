@@ -11,7 +11,6 @@ Think about it as
 - has baked in 6-pin SPI interface for external sensor
 - has baked in wiring for 6x6 keyboard matrix via JST connectors
 - has baked in power/reset switches for both sides
-- built in 1.8v power supply for externals
 - high efficiency DC/DC buck converters for all power lines
 - heavily fabrication optimised BOM and PCB (est $130 per 5 units at JLCPCB)
 

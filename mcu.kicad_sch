@@ -5939,16 +5939,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "bypass"
-		(exclude_from_sim no)
-		(at 68.326 25.908 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "261e0e48-cebf-42fc-8dcc-7f9a9dcbb492")
-	)
 	(junction
 		(at 109.22 142.24)
 		(diameter 0)
@@ -6198,16 +6188,6 @@
 			(type default)
 		)
 		(uuid "2b2bb76d-4e79-427c-bdc9-2c01a2d8a4df")
-	)
-	(wire
-		(pts
-			(xy 68.58 29.21) (xy 69.85 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b38c580-6225-4cd2-8be4-3cfa175c1268")
 	)
 	(wire
 		(pts
@@ -6701,16 +6681,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 114.3) (xy 52.07 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b46b508f-82b6-459b-b92a-ab4601d15377")
-	)
-	(wire
-		(pts
 			(xy 144.78 157.48) (xy 139.7 157.48)
 		)
 		(stroke
@@ -6998,17 +6968,6 @@
 		)
 		(uuid "477fa5bb-4a1d-45a5-9e7e-2c660f56f2da")
 	)
-	(hierarchical_label "1.8v"
-		(shape input)
-		(at 69.85 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5083e1fe-1c35-46e1-9df9-2fc822b0b3e2")
-	)
 	(hierarchical_label "VSYS"
 		(shape input)
 		(at 41.91 26.67 270)
@@ -7129,28 +7088,6 @@
 			(justify right)
 		)
 		(uuid "ab223709-daef-4a55-9f6e-9a4ae4d6d419")
-	)
-	(hierarchical_label "3.3v"
-		(shape input)
-		(at 43.18 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bfca21e4-d1e3-4212-8c39-8506854decb4")
-	)
-	(hierarchical_label "1.8v "
-		(shape input)
-		(at 68.58 29.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cb25f09f-6e7b-4e59-9582-a1db9a2d9dfc")
 	)
 	(hierarchical_label "Col 0"
 		(shape input)

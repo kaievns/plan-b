@@ -1317,7 +1317,7 @@
 		)
 		(uuid "1dd352b3-c46c-45d2-bbfa-01fdf0299d2d")
 	)
-	(hierarchical_label "3.3v"
+	(hierarchical_label "VDD"
 		(shape input)
 		(at 53.34 33.02 270)
 		(effects

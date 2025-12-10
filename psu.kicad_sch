@@ -600,160 +600,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "AltiumLib:root_1_CAP_AltiumLib.DbLib"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Capacitor, X5R, ±20%, 6.3V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*CAPC1608X06L*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "root_1_CAP_AltiumLib.DbLib_1_0"
-				(polyline
-					(pts
-						(xy 0 4.318) (xy 0 4.826)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 119 200 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.302) (xy 0 2.794)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 119 200 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 4.318) (xy -1.778 4.318)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 119 200 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 3.302) (xy -1.778 3.302)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 119 200 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 7.62 270)
-					(length 3.302)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 0 90)
-					(length 3.302)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "AltiumLib:root_1_RES_AltiumLib.DbLib"
 			(pin_numbers
 				(hide yes)
@@ -859,274 +705,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "AltiumLib:root_2_mirrored_2 pin starpoint_AltiumLib.DbLib"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Starpoint"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*2{space}PIN{space}STARPOINT*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "root_2_mirrored_2 pin starpoint_AltiumLib.DbLib_1_0"
-				(circle
-					(center 0 0)
-					(radius 0.13)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 119 200 1)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at -1.27 0 0)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "AltiumLib:root_3_IND_AltiumLib.DbLib"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor, ±20%"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*INDC2016X10N*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "root_3_IND_AltiumLib.DbLib_1_0"
-				(arc
-					(start 0 -0.762)
-					(mid 0.762 -1.524)
-					(end 0 -2.286)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 119 200 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -2.286)
-					(mid 0.762 -3.048)
-					(end 0 -3.81)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 119 200 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.81)
-					(mid 0.762 -4.572)
-					(end 0 -5.334)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 119 200 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -5.334)
-					(mid 0.762 -6.096)
-					(end 0 -6.858)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 119 200 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 270)
-					(length 0.762)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 0.762)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2220,107 +1798,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GND_1"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_1_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_SPST"
 			(pin_names
 				(offset 0)
@@ -3220,111 +2697,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "npm1100_qdax_config3-altium-import:VOUT_BAR"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VOUT"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'VOUT'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VOUT_BAR_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "npm1100_qdax_config3-altium-import:VSYS_BAR"
 			(power)
 			(exclude_from_sim no)
@@ -3870,18 +3242,6 @@
 		(uuid "09ae51b2-51ea-498c-89d5-bba37ad7165c")
 	)
 	(junction
-		(at 195.58 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a8ea242-e0d4-4499-a3ce-f150459add70")
-	)
-	(junction
-		(at 205.74 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10ea4db3-ad8f-4a11-9410-1a452e51b768")
-	)
-	(junction
 		(at 85.09 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3918,28 +3278,22 @@
 		(uuid "73dff619-2cce-419a-87bd-429c986d4a79")
 	)
 	(junction
-		(at 187.96 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77dee9cc-0b93-4d3e-8d98-320abe6b756a")
-	)
-	(junction
 		(at 80.01 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d4d534b-e210-46b7-9df5-1ec2cfd344d7")
 	)
 	(junction
-		(at 127 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6feadcc-1704-44f6-9871-6ae543e706b7")
-	)
-	(junction
 		(at 114.3 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3a2b2bd-49dc-46fd-8e3e-d1da0512d3b3")
+	)
+	(junction
+		(at 187.96 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc8a79b1-f87a-4c4e-9f66-79b88b69e3c8")
 	)
 	(junction
 		(at 190.5 80.01)
@@ -3952,6 +3306,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1ab9ee0-3b26-45dd-bdac-4aa3131d00d8")
+	)
+	(junction
+		(at 187.96 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef828f62-9c08-4385-ad71-7c5cc2c10cdd")
 	)
 	(junction
 		(at 114.3 59.69)
@@ -3976,6 +3336,10 @@
 	(no_connect
 		(at 46.99 72.39)
 		(uuid "51519e99-dc6f-47f4-8d91-f96678541b55")
+	)
+	(no_connect
+		(at 187.96 69.85)
+		(uuid "5f828b31-3d4f-45d2-acda-fe41b8b2d038")
 	)
 	(no_connect
 		(at 187.96 82.55)
@@ -4019,16 +3383,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 62.23) (xy 187.96 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03534ede-ace2-440a-8a9d-99b0edce578b")
-	)
-	(wire
-		(pts
 			(xy 190.5 77.47) (xy 190.5 80.01)
 		)
 		(stroke
@@ -4046,6 +3400,16 @@
 			(type default)
 		)
 		(uuid "141f0752-10e8-4b94-9105-695ee36a7a9d")
+	)
+	(wire
+		(pts
+			(xy 187.96 49.53) (xy 187.96 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1af9be17-740b-4088-86ce-87924ae4d85f")
 	)
 	(wire
 		(pts
@@ -4076,16 +3440,6 @@
 			(type default)
 		)
 		(uuid "2ecb75f3-2e6e-4653-9443-a5b0950377a2")
-	)
-	(wire
-		(pts
-			(xy 127 101.6) (xy 127 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31c48f56-695c-4a86-8dc6-10a185d0255d")
 	)
 	(wire
 		(pts
@@ -4249,16 +3603,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 69.85) (xy 187.96 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "888b085f-7182-418e-999d-7fab0f676ee9")
-	)
-	(wire
-		(pts
 			(xy 187.96 46.99) (xy 187.96 49.53)
 		)
 		(stroke
@@ -4266,16 +3610,6 @@
 			(type default)
 		)
 		(uuid "90c6b8a6-3d86-47d6-8ea8-a6a93c7ed862")
-	)
-	(wire
-		(pts
-			(xy 195.58 62.23) (xy 205.74 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "957cb944-1bb1-4361-91cd-8c9ec582912d")
 	)
 	(wire
 		(pts
@@ -4296,16 +3630,6 @@
 			(type default)
 		)
 		(uuid "b07306e3-87d6-47d3-af54-6581f5cdd390")
-	)
-	(wire
-		(pts
-			(xy 127 100.33) (xy 120.65 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0fc4b5c-95cb-41f4-b229-988bd027f32b")
 	)
 	(wire
 		(pts
@@ -4419,6 +3743,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 41.91) (xy 187.96 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9728f45-f65f-47ac-8720-8aa48aa19e43")
+	)
+	(wire
+		(pts
 			(xy 85.09 158.75) (xy 85.09 161.29)
 		)
 		(stroke
@@ -4426,16 +3760,6 @@
 			(type default)
 		)
 		(uuid "dc7399af-6c6f-4dd9-9f4c-14399226e49b")
-	)
-	(wire
-		(pts
-			(xy 195.58 41.91) (xy 187.96 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e29542d0-f30e-45f7-8395-1f0a4b7e3c1f")
 	)
 	(wire
 		(pts
@@ -4469,7 +3793,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 100.33) (xy 114.3 100.33)
+			(xy 114.3 100.33) (xy 127 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4583,17 +3907,6 @@
 			(justify right)
 		)
 		(uuid "82e0037c-6c85-4bed-91df-77aa6cef8f81")
-	)
-	(hierarchical_label "1.8v"
-		(shape input)
-		(at 260.35 139.7 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "906984f3-e551-4a6b-8a0c-81adaeeddb8d")
 	)
 	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VBUS_BAR")
@@ -4983,68 +4296,6 @@
 			(project "plan-b"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "npm1100_qdax_config3-altium-import:VOUT_BAR")
-		(at 205.74 62.23 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "09c8a46b-9d33-4b19-b036-615f74f02d1b")
-		(property "Reference" "#PWR0109"
-			(at 205.74 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "1.8v"
-			(at 205.74 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 205.74 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "b33eae66-bc47-448c-bbc2-c6878968c9e0")
-		)
-		(instances
-			(project "plan-b"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
-					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -5865,73 +5116,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 195.58 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "356d0c40-0dc3-45ee-b345-91a2849581f7")
-		(property "Reference" "#PWR0157"
-			(at 195.58 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PVSS"
-			(at 193.548 53.594 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9cd1ce14-d1b9-4239-b856-4f063b3ac6bc")
-		)
-		(instances
-			(project "plan-b"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
-					(reference "#PWR0157")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 60.96 124.46 0)
 		(unit 1)
@@ -6046,73 +5230,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 187.96 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3df465c2-650b-4fe3-990e-355b22e81440")
-		(property "Reference" "#PWR0152"
-			(at 187.96 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 185.928 53.594 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "59462b83-3017-438c-90ce-407ccf8ddcf8")
-		)
-		(instances
-			(project "plan-b"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
-					(reference "#PWR0152")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "npm1100_caax_config1-altium-import:VOUT_BAR")
 		(at 247.65 139.7 180)
 		(unit 1)
@@ -6169,73 +5286,6 @@
 			(project "plan-b"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 205.74 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "433bb7b6-3f55-49ca-82bf-8b56052e0593")
-		(property "Reference" "#PWR0154"
-			(at 205.74 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PVSS"
-			(at 203.708 73.914 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c78158a0-b911-42e6-97af-b1764d3a548a")
-		)
-		(instances
-			(project "plan-b"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
-					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -6365,180 +5415,6 @@
 			(project "plan-b"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "#PWR085")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AltiumLib:root_1_CAP_AltiumLib.DbLib")
-		(at 195.58 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5b1da833-219c-433c-899d-5fd4608f4abe")
-		(property "Reference" "C25"
-			(at 197.612 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "10µF"
-			(at 197.612 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Library:C_0603_1608"
-			(at 195.58 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor, X5R, ±20%, 6.3V"
-			(at 195.58 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FOOTPRINT DOC" "0603"
-			(at 193.548 41.402 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "10µF"
-			(at 193.548 41.402 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENT CLASS" "Capacitors"
-			(at 194.31 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "AUTHOR" ""
-			(at 194.31 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PAD COUNT" "2"
-			(at 194.31 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ASSEMBLY" ""
-			(at 194.31 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" ""
-			(at 195.58 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" ""
-			(at 195.58 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 195.58 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PRICE" ""
-			(at 195.58 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C19702"
-			(at 195.58 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "466998e5-53d6-4d87-a92a-67051077f456")
-		)
-		(pin "2"
-			(uuid "b4e95bde-f5b4-442b-97b4-620fc1b31565")
-		)
-		(instances
-			(project "plan-b"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
-					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -6925,68 +5801,6 @@
 			(project "plan-b"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "npm1100_caax_config1-altium-import:VOUT_BAR")
-		(at 260.35 139.7 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "762f49d4-38aa-409b-a506-ac9f85524716")
-		(property "Reference" "#PWR09"
-			(at 260.35 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "1.8v"
-			(at 260.604 133.096 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 260.35 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 260.35 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "2dde26db-55a5-416e-b019-8fd6c5618817")
-		)
-		(instances
-			(project "plan-b"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8748,172 +7562,6 @@
 		)
 	)
 	(symbol
-		(lib_id "AltiumLib:root_2_mirrored_2 pin starpoint_AltiumLib.DbLib")
-		(at 119.38 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "bb390888-b882-499e-baf3-f3b23104fa67")
-		(property "Reference" "J99"
-			(at 119.25 99.568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Net tie"
-			(at 117.602 99.568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "2 pin starpoint:2 PIN STARPOINT"
-			(at 119.38 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Starpoint"
-			(at 119.38 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FOOTPRINT DOC" "N.A."
-			(at 117.602 99.568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "Net tie"
-			(at 117.602 99.568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENT CLASS" "Connectors"
-			(at 117.602 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "AUTHOR" ""
-			(at 117.602 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PAD COUNT" "2"
-			(at 117.602 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ASSEMBLY" ""
-			(at 117.602 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" ""
-			(at 119.38 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" ""
-			(at 119.38 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 119.38 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PRICE" ""
-			(at 119.38 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c8e3cd8-22f9-4722-8f20-27ab84e33883")
-		)
-		(pin "2"
-			(uuid "93abfd99-fbf0-43d8-9e98-0e952305fbd2")
-		)
-		(instances
-			(project "plan-b"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
-					(reference "J99")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 85.09 173.99 0)
 		(unit 1)
@@ -8975,247 +7623,6 @@
 			(project "plan-b"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 127 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cfe5f20f-796c-46d7-afb6-cb2689ffbebb")
-		(property "Reference" "#PWR0156"
-			(at 127 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PVSS"
-			(at 124.968 105.664 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd8062f1-0a3f-4e38-a244-bec09b2f762a")
-		)
-		(instances
-			(project "plan-b"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
-					(reference "#PWR0156")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AltiumLib:root_1_CAP_AltiumLib.DbLib")
-		(at 205.74 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d3640f45-94e2-477b-97d9-e19753dfa3f6")
-		(property "Reference" "C26"
-			(at 207.772 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "10µF"
-			(at 207.772 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Library:C_0603_1608"
-			(at 205.74 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor, X5R, ±20%, 6.3V"
-			(at 205.74 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FOOTPRINT DOC" "0603"
-			(at 207.772 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "10µF"
-			(at 203.708 61.722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENT CLASS" "Capacitors"
-			(at 204.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "AUTHOR" ""
-			(at 204.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PAD COUNT" "2"
-			(at 204.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ASSEMBLY" ""
-			(at 204.47 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" ""
-			(at 205.74 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" ""
-			(at 205.74 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 205.74 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PRICE" ""
-			(at 205.74 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C19702"
-			(at 205.74 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d7fa7f6b-f8f7-4264-ba0a-0ec4f8d9d833")
-		)
-		(pin "2"
-			(uuid "1be42e52-b421-4ca9-8218-9b0553464294")
-		)
-		(instances
-			(project "plan-b"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
-					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -9346,180 +7753,6 @@
 			(project "plan-b"
 				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AltiumLib:root_3_IND_AltiumLib.DbLib")
-		(at 195.58 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e7efeff2-6b4e-4b90-a04e-9cfc0a0c5e47")
-		(property "Reference" "L5"
-			(at 196.342 65.532 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "2.2µH"
-			(at 196.342 68.072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Library:L_0603_1608"
-			(at 195.58 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor, ±20%"
-			(at 195.58 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FOOTPRINT DOC" "0806"
-			(at 194.818 61.722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" "2.2µH"
-			(at 194.818 61.722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "COMPONENT CLASS" "Inductors"
-			(at 195.072 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "AUTHOR" ""
-			(at 195.072 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PAD COUNT" "2"
-			(at 195.072 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ASSEMBLY" ""
-			(at 195.072 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" ""
-			(at 195.58 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" ""
-			(at 195.58 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 195.58 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PRICE" ""
-			(at 195.58 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1033"
-			(at 195.58 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a27efd37-1e50-491e-8cd8-29e1dc2f209a")
-		)
-		(pin "2"
-			(uuid "46c65224-79a2-4af3-8d71-f37ba4a581e6")
-		)
-		(instances
-			(project "plan-b"
-				(path "/3a835e6f-a660-4b38-a102-87841cdd95ed/9c2573bf-1407-4545-8610-25cf55ee3ffc"
-					(reference "L5")
 					(unit 1)
 				)
 			)
